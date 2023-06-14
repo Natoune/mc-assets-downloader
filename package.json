@@ -1,0 +1,22 @@
+{
+  "name": "@natoune/mc-assets-downloader",
+  "version": "1.0.0",
+  "description": "A library to download Minecraft assets",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc --declaration --declarationMap",
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "Natoune <contact@natoune.fr> (https://natoune.fr)",
+  "license": "MIT",
+  "dependencies": {
+    "@types/request": "^2.48.8",
+    "node-fetch-commonjs": "^3.2.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Natoune/mc-assets-downloader.git"
+  }
+}
